@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWQiOiI2MTFmZTY2ZjQ4MDgxNDE0ODBhNWI2YTkiLCJpYXQiOjE2Mjk2NDIzMTMsImV4cCI6MTYyOTY0NTkxM30.jhMNZC8Y-LPaxP7w0vTRqecA7ZafPGTbFckA8t6sn0Y
+
+
+{
+    "title": "token middlewarella postattu, poistamiseen tarvitaan token",
+    "author": "me",
+    "url": "/api/blogs/vs",
+    "likes": 8
+}
